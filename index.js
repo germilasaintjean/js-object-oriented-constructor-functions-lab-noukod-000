@@ -3,4 +3,11 @@ function Scooter(year, color, model){
   this.color = color
   this.model = model
 }
-const bm = new Scooter(2019, 'Red', 'bm' )
+const s = new Scooter(2019, 'Red', 'bm' )
+
+function Driver(name, age, experience){
+  this.name = name
+  this.age = age
+  this.experience = experience
+}
+const d = new Driver('Jean', 19, 'experience') 
