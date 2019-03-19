@@ -10,7 +10,7 @@ function Driver(name, age, experience){
   this.age = age
   this.experience = experience
 }
-const d = new Driver('Jean', 19, 'experience') 
+const d = new Driver('Jean', 19, 'experience')
 
 function PickupLocation(address, city){
   this.address = address
