@@ -11,3 +11,9 @@ function Driver(name, age, experience){
   this.experience = experience
 }
 const d = new Driver('Jean', 19, 'experience') 
+
+function PickupLocation(address, city){
+  this.address = address
+  this.city = city
+}
+const pl = new PickupLocation('Fleuriot', 'Tabarre')  
